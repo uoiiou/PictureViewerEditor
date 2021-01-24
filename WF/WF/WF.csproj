@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Files">
+      <HintPath>..\..\Files\Files\Files\bin\Debug\Files.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageManipulation">
+      <HintPath>..\..\ImageManipulation\ImageManipulation\ImageManipulation\bin\Debug\ImageManipulation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
